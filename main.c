@@ -3,14 +3,14 @@
 #include <stdio.h>
 int main(){
 
-   char name[UNLEN + 1];
+  /* char name[UNLEN + 1];
     DWORD cch = UNLEN + 1;
     if (GetUserName(name, &cch))
     {
         char cmd[100 + UNLEN + 1];
         sprintf(cmd, "echo The username is \"%s\"", name); 
         system(cmd);
-    }
+    } */
 
 
 if(MessageBoxW(
